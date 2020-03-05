@@ -1,33 +1,27 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Sanchit
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Sharma
+about: I'm looking for ambitious group of individuals in a small team, so that they inspire me with their work,
+      and hopefully I can inspire them with my work.
+position: Frontend developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1995
+  location: Noida
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
+- company: Infino
+  position: Frontend developer lead
+  timeperiod: since June 2018
   description: Programming and watching cute cat videos.
   website: https://example.com
 
-- company: Company B
+- company: Groceristar
   position: Frontend Developer
-  timeperiod: January 2015 - December 2015
+  timeperiod: Feb 2018 - Nov 2018
   description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
 
 education:
 - degree: Master of Arts
@@ -41,37 +35,43 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
+- name: HTML5, CSS3
   level: 99
-- name: CSS3
+- name: Webextension
   level: 95
 - name: JavaScript
   level: 97
-- name: Node.js
+- name: Nodejs
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Responsive UI/UX
   level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
+- name: Reactjs, Polymerjs
+  level: 60
+- name: Redux
   level: 99
+- name: AWS
+  level: 70
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
+- name: Donut - chrome extension
+  platform: Polymerjs
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+- name: Infino - https://getinfino.com
+  platform: Reactjs
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
   url: https://github.com/salomonelli/best-resume-ever
 
+
+
 hobbies:
-- name: Video Games
+- name: Playing chess and cricket
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
+- name: Reading
   iconClass: fa fa-pencil
   url: https://example.com
 
@@ -81,12 +81,11 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: sanchits174@gmail.com
+  phone: +91 9519637664
+  street: 501 - AVM Building, Sec 126
+  city: Noida
+  github: sanchit94
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
