@@ -73,7 +73,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
-@text-purple: #680568;
+@text-purple: hsl(217, 71%, 53%);
 #template {
     box-sizing:border-box;
     font-family:'Open Sans', sans-serif;
@@ -105,7 +105,7 @@ export default Vue.component(name, getVueOptions(name));
     #resume-header {
         color: white;
         height: 136px;
-        background-color: purple;
+        background-color: hsl(217, 71%, 53%);
         box-shadow: inset 0px 0px 200px #301030;
         padding: 40px 100px 25px;
 
@@ -211,7 +211,7 @@ export default Vue.component(name, getVueOptions(name));
     #resume-footer {
         padding: 20px 100px;
         height: 135px;
-        background-color: purple;
+        background-color: hsl(217, 71%, 53%);
         box-shadow: inset 0px 0px 100px #301030;
         box-sizing: border-box;
         position: absolute;
